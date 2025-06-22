@@ -1,1 +1,1 @@
-Cleaning as described in the youtube tutorial was done in PowerBI instead of the source Excel File.
+Cleaning was done in Microsoft Excel instead of Power BI, and also further cleaning was completed deviating from the advice given in the tutorial.
