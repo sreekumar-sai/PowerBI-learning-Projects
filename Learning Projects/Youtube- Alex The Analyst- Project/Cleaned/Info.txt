@@ -8,9 +8,9 @@ Rationale:
 Significant Global Influence: These countries have large economies, high digital engagement, and strong presence in global markets.
 Distinctive Behavioral Patterns: Their technological, cultural, and socioeconomic profiles differ substantially from regional averages.
 High Data Representation: These nations frequently appear in global datasets and are analytically meaningful on their own.
-
-
 This approach balances clarity and granularity, enabling continent-level insights while preserving detail for countries with outsized impact.
+
+
 -Adjustment of the 0–40k Salary Range
 The salary range 0–40k was adjusted to 10–40k for average calculation purposes.
 Rationale:
@@ -18,3 +18,14 @@ Avoids skew from unpaid roles or missing data represented by the 0k lower bound.
 Produces a more realistic midpoint that reflects typical entry-level earnings.
 Maintains consistency with how other salary ranges are treated.
 This change ensures the computed averages better represent actual compensation levels.
+
+
+-Job Title-to-Category Mapping
+In this dataset, job titles were consolidated into eight core categories to simplify analysis and reduce redundancy. However, the following categories were retained as distinct groups:
+Data Analyst, Data Engineer, Data Scientist, Business Analyst, Business Intelligence Analyst, Software Engineer / Database Developer, Student / Looking / None, Other
+Rationale:
+Functional Distinction: These roles differ significantly in responsibilities, skills, and tooling (e.g., engineering vs. analysis vs. leadership).
+High Frequency: Titles like Data Analyst and Data Engineer occur frequently and are central to most data teams.
+Clarity in Reporting: Separating leadership roles (Manager, Director), education status (Student/Looking), and technical specializations (BI, Software, Database) enhances interpretability.
+Role-Specific Trends: These categories reflect distinct hiring trends, salary patterns, and job functions—grouping them maintains analytic precision.
+This approach balances simplicity with analytical depth, enabling streamlined dashboards while preserving critical differences across job functions.
