@@ -1,22 +1,20 @@
 Cleaning was done in Microsoft Excel instead of Power BI, and also further cleaning was completed deviating from the advice given in the tutorial.
 
-Rationale for Selecting Economically Significant Countries
-In this dataset, certain countries have been deliberately excluded from being grouped into broader continental categories. Instead, they are preserved as individual entities due to their distinct global influence. The countries in question are:
 
-United States, Canada, United Kingdom, Germany, France, India, China, Japan, South Korea, Australia, and Singapore.
+-Country-to-Continent Mapping
+In this dataset, most countries were grouped by their respective continents to simplify analysis. However, the following countries were retained as individual categories:
+United States, Canada, United Kingdom, Germany, France, India, China, Japan, South Korea, Australia, Singapore
+Rationale:
+Significant Global Influence: These countries have large economies, high digital engagement, and strong presence in global markets.
+Distinctive Behavioral Patterns: Their technological, cultural, and socioeconomic profiles differ substantially from regional averages.
+High Data Representation: These nations frequently appear in global datasets and are analytically meaningful on their own.
 
-These countries were selected based on the following considerations:
 
-Global Economic Influence
-Each of these countries represents a significant share of the global economy. They are members of international economic groups such as the G7, G20, or have been identified by institutions like the IMF and World Bank as key players in global financial and trade systems.
-
-Technological and Digital Leadership
-Many of these nations are leaders in technological innovation, internet infrastructure, and digital platform usage. This distinction often results in unique patterns in online behavior, market engagement, and consumer trends that justify treating them as separate analytical categories.
-
-Sociopolitical and Cultural Distinction
-These countries exhibit distinct social, political, and cultural dynamics that meaningfully differ from their continental peers. For example, post-Brexit United Kingdom operates with a different regulatory framework than the rest of Europe, and India’s vast, tech-savvy population demonstrates patterns that are not representative of broader Asia.
-
-Overrepresentation in Global Datasets
-These countries frequently account for a large portion of user responses or activity in global datasets, particularly in surveys, market research, and digital platforms. Their high visibility and participation levels make aggregation into a continental group analytically reductive.
-
-By maintaining these countries as distinct entities, the dataset allows for more precise analysis and meaningful insights, while still organizing the remaining countries into appropriate continental groupings.
+This approach balances clarity and granularity, enabling continent-level insights while preserving detail for countries with outsized impact.
+-Adjustment of the 0–40k Salary Range
+The salary range 0–40k was adjusted to 10–40k for average calculation purposes.
+Rationale:
+Avoids skew from unpaid roles or missing data represented by the 0k lower bound.
+Produces a more realistic midpoint that reflects typical entry-level earnings.
+Maintains consistency with how other salary ranges are treated.
+This change ensures the computed averages better represent actual compensation levels.
