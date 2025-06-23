@@ -26,8 +26,6 @@ Projects are inspired by:
 
 ## 🗂 Sample Projects
 
-## 🗂 Sample Projects
-
 | Project                             | Source             | Notes                                                 | Status     | Date Completed |
 |-------------------------------------|--------------------|-------------------------------------------------------|------------|----------------|
 | Covid-19 Tracker                    | DataChant          | Included custom visuals                               | Planned     | –              |
