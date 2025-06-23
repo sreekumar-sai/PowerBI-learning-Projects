@@ -1,0 +1,27 @@
+📊 Data Professional Survey Breakdown – Power BI Dashboard
+This project is a Power BI dashboard created as part of a follow-along tutorial by Alex The Analyst. The dataset used in this project was provided by Alex and is based on a survey he conducted among data professionals.
+
+🎯 Project Purpose
+This project was built to practice and enhance Power BI skills, particularly in data modeling, visualization, and storytelling through dashboards. It offers a breakdown of various insights into the data industry based on real-world survey results.
+
+📈 Dashboard Highlights:
+Participant Demographics:
+Total respondents: 625
+Average age: 29.86 years
+Regional distribution (top regions: United States, India, and Europe)
+Job & Salary Insights:
+Average salary by job role (Director, Manager, Data Scientist, etc.)
+Average salary comparison by gender
+Satisfaction Metrics:
+Work-Life Balance Happiness Score: 5.65 / 10
+Salary Satisfaction Score: 4.23 / 10
+Technology Preferences:
+Favorite programming languages (with Python leading at ~67%)
+Other languages include R, SQL, JavaScript, C/C++, etc.
+🛠 Tools & Skills Used:
+Power BI – Data modeling, DAX measures, and interactive visualizations
+Data Cleaning & Transformation using Power Query
+Data Visualization Best Practices following a real-world scenario
+
+📚 Acknowledgment:
+Special thanks to Alex the Analyst for providing the dataset and walkthrough. This project was developed by following his tutorial as part of a data analytics learning journey.
