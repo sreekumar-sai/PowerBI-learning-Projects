@@ -11,7 +11,7 @@ This repository contains Power BI projects completed by following along with tut
 ## 📁 Project Sources
 
 Projects are inspired by:
-- YouTube tutorials from creators like Alex the Analyst, How To Power BI, and others
+- YouTube tutorials from creators like Alex The Analyst, How To Power BI, and Data Tutorials
 - Blog walkthroughs and course materials
 - Public datasets for hands-on exercises
 
@@ -23,19 +23,20 @@ Projects are inspired by:
 - Writing and optimizing DAX measures
 - Building interactive dashboards
 - Understanding visual best practices
+- KPI selection and storytelling with visuals
 
 ## 🗂 Sample Projects
 
-| Project                             | Source             | Notes                                                 | Status     | Date Completed |
-|-------------------------------------|--------------------|-------------------------------------------------------|------------|----------------|
-| Covid-19 Tracker                    | DataChant          | Included custom visuals                               | Planned     | –              |
-| Data Professional Survey Dashboard  | Alex The Analyst   | Follow-along project using survey data he provided    | ✅ Completed | 2025-06-22     |
-| Formula 1 Analytics Dashboard       | Public Dataset     | Analyzing race results, teams, and driver performance | Planned      | –              |
-| Global Military Spending Dashboard  | Public Dataset     | Comparing military budgets and spending by country    | Planned      | –              |
+| Project                             | Source             | Notes                                                                 | Status      | Date Completed |
+|-------------------------------------|--------------------|-----------------------------------------------------------------------|-------------|----------------|
+| Blinkit Sales Analysis Dashboard    | Data Tutorials     | Do-along YouTube project analyzing sales & customer metrics in Power BI | In Progress | –              |
+| Data Professional Survey Dashboard  | Alex The Analyst   | Follow-along project using survey data he provided                    | ✅ Completed | 2025-06-22     |
+| Formula 1 Analytics Dashboard       | Public Dataset     | Analyzing race results, teams, and driver performance                 | Planned     | –              |
+| Global Military Spending Dashboard  | Public Dataset     | Comparing military budgets and spending by country                    | Planned     | –              |
 
 ## 📄 License
 
-Projects are for educational purposes only and are not intended for commercial use.
+Projects are for educational purposes only and are not intended for commercial use.  
 Licensed under the MIT License.
 
 ---
