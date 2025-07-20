@@ -1,0 +1,90 @@
+# 📊 Blinkit Sales Analysis – Project Notes & Assumptions
+
+This Power BI project analyzes Blinkit’s sales performance, customer satisfaction, and inventory distribution using a dataset provided by [Data Tutorials](https://www.youtube.com/@DataTutorials). The project follows a do-along format with custom modifications for learning and exploration.
+
+---
+
+## 🧼 Data Cleaning & Modifications
+
+While the original tutorial used Power BI for data transformation, the following adjustments were made:
+
+### ✅ Cleaning Performed in Excel
+- Initial cleaning and quality checks were done in **Microsoft Excel** before importing into Power BI.
+- **Rationale**: Excel allowed for easier manual checks, filtering, and category consolidation during early exploration.
+
+---
+
+### ✅ Chart Scope & KPI Adjustments
+- Though the video covered specific KPIs (Total Sales, Average Sales, Number of Items, Average Rating), additional grouping logic was applied to improve visual clarity and insight generation.
+
+---
+
+## 📁 Column Descriptions & Metadata
+
+| Column Name                | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| `Item Fat Content`        | Categorical: "Regular" or "Low Fat" – Used for segmentation in sales charts |
+| `Item Identifier`         | Unique ID for each item                                                     |
+| `Item Type`               | Categorical: Describes item category (e.g., snacks, beverages)              |
+| `Item Weight`             | Numeric: Affects delivery cost (heavier items incur higher charges)         |
+| `Item Visibility`         | Numeric: Indicates how prominently the item is promoted or displayed        |
+| `Sales`                   | Numeric: Revenue generated from item sales                                  |
+| `Rating`                  | Customer-provided rating (scale: 0–5)                                       |
+| `Outlet Identifier`       | Unique ID for each Blinkit outlet                                           |
+| `Outlet Establishment Year`| Year the outlet began operation                                            |
+| `Outlet Location Type`    | Indicates tier of city (e.g., Tier 1, Tier 2, Tier 3)                        |
+| `Outlet Size`             | Describes physical size of outlet (e.g., Small, Medium, High)               |
+| `Outlet Type`             | Supermarket 1/2/3 (internal only), or Grocery Store (public-facing)         |
+
+---
+
+## 🔍 Chart-Specific Enhancements
+
+In addition to the tutorial's walkthrough, custom groupings and assumptions were applied to chart development:
+
+### 1. **Total Sales by Fat Content**
+- Compared how low-fat vs. regular items influenced total revenue
+- Used Donut Chart for simple KPI visualization
+
+### 2. **Sales by Item Type**
+- Grouped similar items to improve insight granularity
+- Bar Chart used for categorical comparison
+
+### 3. **Sales by Outlet Size**
+- Correlated outlet size with overall sales performance
+- Used Donut/Pie Chart to visually segment by size
+
+### 4. **Sales by Outlet Location**
+- Analyzed geographic distribution using Funnel Map
+- Assessed sales skew by Tier 1/2/3 cities
+
+### 5. **Sales by Outlet Establishment Year**
+- Used Line Chart to observe performance trend by outlet age
+- Explored possible impact of outlet maturity on revenue
+
+### 6. **All Metrics by Outlet Type**
+- Combined key KPIs into a Matrix card
+- Useful for high-level executive overview
+
+---
+
+## 🎓 Learning Focus
+
+- Building relationships between item-level and outlet-level data
+- Writing DAX for aggregated measures (e.g., avg. rating, total sales)
+- Designing dashboards with slicers for interactive filtering
+- Understanding dimension vs. fact table relationships
+
+---
+
+## 📌 Notes
+
+- Dataset is used **strictly for educational purposes**  
+- Project is **in progress**, and new visuals or metrics may be added later
+
+---
+
+## 📎 Attribution
+
+Dataset and project walkthrough originally provided by [Data Tutorials – YouTube Channel](https://www.youtube.com/@DataTutorials)
+
