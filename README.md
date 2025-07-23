@@ -29,7 +29,7 @@ Projects are inspired by:
 
 | Project                             | Source             | Notes                                                                 | Status      | Date Completed |
 |-------------------------------------|--------------------|-----------------------------------------------------------------------|-------------|----------------|
-| Blinkit Sales Analysis Dashboard    | Data Tutorials     | Do-along YouTube project analyzing sales & customer metrics in Power BI | In Progress | –              |
+| Blinkit Sales Analysis Dashboard    | Data Tutorials     | Do-along YouTube project analyzing sales & customer metrics in Power BI | ✅ Completed | 2025-07-20     |
 | Data Professional Survey Dashboard  | Alex The Analyst   | Follow-along project using survey data he provided                    | ✅ Completed | 2025-06-22     |
 | Formula 1 Analytics Dashboard       | Public Dataset     | Analyzing race results, teams, and driver performance                 | Planned     | –              |
 | Global Military Spending Dashboard  | Public Dataset     | Comparing military budgets and spending by country                    | Planned     | –              |
